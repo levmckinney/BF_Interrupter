@@ -1,0 +1,2 @@
+g++ -std=c++11 -g -O0 main.cpp -o main.bin
+valgrind --leak-check=yes ./main.bin
